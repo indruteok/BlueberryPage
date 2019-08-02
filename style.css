@@ -1,0 +1,668 @@
+/* Bendrieji parametrai */
+/* font-family ir pan. */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /* border: 1px solid black;*/
+
+}
+
+/* HEADER */
+
+.header-container {
+    background-image: url(IMG/2_header.jpg);
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.header-bgc {
+    background-color: rgba(24, 24, 199, 0.2);
+    background-size: cover;
+    width: 100%;
+}
+
+/* Logotipas ir Meniu juosta */
+.header-box {
+    padding: 3% 0% 0% 5%;
+}
+
+header h2 {
+    text-align: left;
+    width: 40%;
+    font-size: 2em;
+    font-family: Sedgwick Ave;
+    letter-spacing: 5px;
+    float: left;
+}
+
+header nav {
+    float: right;
+    width: 50%;
+    padding: 0.4% 0% 0% 0%;
+    color: white;
+    font-weight: 600;
+}
+
+header nav li {
+    list-style-type: none;
+    padding: 0.5em 2em 0.5em 0.5em;
+    float: left;
+}
+
+header li:hover {
+    color: blue;
+}
+
+/* tekstas ir mygtukas */
+header h4 {
+    font-size: 2.5em;
+}
+
+header h6 {
+    padding: 12% 0% 0% 1%;
+}
+
+header p {
+    padding: 3%;
+}
+
+.mygtukas {
+    text-decoration: none;
+    background-color: rgb(168, 249, 249);
+    border-radius: 2em;
+    padding: 8px 15px;
+}
+
+
+
+/* BODY */
+/*1 KONTINERIS */
+
+
+/*KAIRE*/
+.container-kaire {
+    width: 35%;
+    float: left;
+}
+
+.box1 {
+    width: 70%;
+    text-align: center;
+    padding: 10% 0%;
+    margin: 1% 20%;
+}
+
+.kaire-img {
+    width: 30%;
+}
+
+/*VIDURYS*/
+.container-centras {
+    width: 30%;
+    float: left;
+    padding: 6% 0 0 0;
+}
+
+.centras-img {
+    width: 100%;
+    margin: 0% 5%;
+}
+
+/*DESINE*/
+.container-desine {
+    width: 35%;
+    float: right;
+}
+
+.box2 {
+    width: 70%;
+    text-align: center;
+    padding: 10% 0%;
+    margin: 1% 10%;
+}
+
+.desine-img {
+    width: 30%;
+}
+
+/*BENDRIEJI 1 KONTEINERIO PARAMETRAI*/
+
+
+.pavadinimas-1dalis {
+    padding: 3% 0% 2%;
+    font-size: 2em;
+    text-align: center;
+    font-family: Sedgwick Ave;
+    letter-spacing: 5px;
+}
+
+.box1 h6,
+.box2 h6 {
+    font-size: 1em;
+    padding: 3% 0 2% 0;
+}
+
+
+.container-1dalis:after {
+    content: ' ';
+    display: block;
+    clear: both;
+}
+
+
+/*2 KONTINERIS */
+.container2 {
+    background-image: url(IMG/3_fonas.jpg);
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.bgc2 {
+    background-color: rgba(24, 24, 199, 0.2);
+    background-size: cover;
+    width: 100%;
+}
+
+.text2 h6 {
+    font-size: 2em;
+    color: #A8F9F9;
+    text-transform: uppercase;
+}
+
+.text2 h4 {
+    font-family: Sedgwick Ave;
+    letter-spacing: 5px;
+    font-size: 3.5em;
+    margin: 2%;
+}
+
+.text2 p {
+    color: #A8F9F9;
+    font-size: 2em;
+}
+
+.mygtukas2 {
+    font-size: 16px;
+    text-decoration: none;
+    background-color: rgb(168, 249, 249);
+    border-radius: 2em;
+    padding: 8px 15px;
+    color: blue;
+}
+
+/* 2 KONTEINERIO tekstas */
+
+.text2 h6 {
+    padding: 10% 0% 0%;
+}
+
+.text2 h4 {
+    padding: 1% 0% 1% 0%;
+}
+
+.text2 p {
+    padding: 2% 0% 2% 0%;
+}
+
+
+
+/*3 KONTINERIS */
+
+article h3 {
+    padding: 2%;
+    font-family: Sedgwick Ave;
+    letter-spacing: 5px;
+    font-size: 3em;
+}
+
+article {
+    width: 100%;
+    text-align: center;
+}
+
+.nav_2 ul li {
+    font-style: italic;
+    color: blue;
+    font-weight: 900;
+}
+
+.nav_2 ul {
+    padding: 0% 0% 0% 30%;
+}
+
+.nav_2 li {
+    list-style-type: none;
+    float: left;
+    width: 15%;
+    padding: 1% 1% 3% 1%;
+}
+
+article li:hover {
+    color: aqua;
+}
+
+.produktai_1 {
+    width: 100%;
+    padding: 0% 0% 0% 3%;
+}
+
+.produktai_2 {
+    float: left;
+    width: 100%;
+    padding: 0% 0% 0% 3%;
+}
+
+article figure {
+    float: left;
+    border: 1px solid blue;
+    margin: 10px;
+    width: 30%;
+}
+
+.uoga1 {
+    width: 72.3%;
+}
+
+.uoga2 {
+    width: 78%;
+}
+
+.uoga3 {
+    width: 69.2%;
+}
+
+.uoga4 {
+    width: 80%;
+}
+
+.uoga5 {
+    width: 44.2%;
+}
+
+.uoga6 {
+    width: 72.5%;
+}
+
+article figcaption {
+    color: blue;
+}
+
+article figure:hover {
+    padding: 1px;
+    box-shadow: 2px 2px 4px 4px #ddd;
+    margin: 1px;
+}
+
+
+
+article figure p {
+    font-size: 0.7em;
+    padding: 1%;
+}
+
+
+/* ---- Float clearfix ---- */
+
+.clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+/*4 KONTINERIS */
+
+.container6 h1 {
+    font-size: 3em;
+    padding: 3% 0 0 0;
+    font-family: Sedgwick Ave;
+    letter-spacing: 5px;
+}
+
+.box6 h6 {
+    font-size: 1.5em;
+    text-align: left;
+    padding: 3% 0%;
+    text-transform: uppercase;
+    word-spacing: 10px;
+    color: blue;
+    font-weight: 600;
+}
+
+
+.container6 p {
+    text-align: left;
+}
+
+
+.container6 {
+    text-align: center;
+    background-color: #EAEAFE;
+}
+
+.container6 img {
+    width: 40%;
+    padding: 10%;
+}
+
+.box6 {
+    width: 55%;
+    padding: 3% 0%;
+
+    float: right;
+}
+
+.box6 p {
+    padding: 3%;
+
+
+}
+
+div .kaina {
+    color: orangered;
+    font-size: 1.5em;
+}
+
+.box6 li {
+    font-size: 1em;
+    text-align: justify;
+    padding: 0.5%;
+    margin: 0 0 0 5%;
+}
+
+.box6 ul {
+    padding: 4%;
+}
+
+/* ---- Float clearfix ---- */
+.container6:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.container7 img {
+    width: 100%;
+}
+
+.box7 {
+    width: 29%;
+    margin: 2%;
+    float: left;
+}
+
+.mygtukas4 {
+    text-decoration: none;
+    background-color: blue;
+    border-radius: 2em;
+    padding: 8px 15px;
+    color: white;
+}
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (max-width:992px) {
+
+    /* HEADER */
+    .header-container {
+        background-image: url(IMG/2_header.jpg);
+        background-size: cover;
+        width: 100%;
+        text-align: center;
+        color: white;
+    }
+
+    .header-bgc {
+        background-color: rgba(24, 24, 199, 0.2);
+        background-size: cover;
+        width: 100%;
+    }
+
+    /* Logotipas ir Meniu juosta */
+
+    header h2 {
+        font-size: 3em;
+    }
+
+    header nav {
+        float: left;
+        width: 100%;
+        padding: 0.4% 0% 0% 5%;
+        font-size: 1.2em;
+    }
+
+    /* tekstas ir mygtukas */
+    header h4 {
+        font-size: 3.5em;
+    }
+
+    header h6 {
+        padding: 15% 0% 2% 1%;
+        font-size: 1.3em;
+    }
+
+    header p {
+        padding: 2% 1% 3% 1%;
+    }
+
+    /* 1 KONTEINERIS */
+    .container-centras {
+        display: none;
+        position: absolute;
+    }
+
+    .container-desine {
+        width: 50%;
+    }
+
+    .container-kaire {
+        width: 50%;
+    }
+
+    /*3 KONTINERIS */
+
+    .nav_2 ul li {
+        font-size: 1.6em;
+        padding: 0 50% 5% 0;
+    }
+
+    .nav_2 li {
+        width: 100%;
+    }
+
+
+
+    .prod {
+        width: 100%;
+        padding: 0% 0% 0% 3%;
+    }
+
+    .prod2 {
+        
+        width: 100%;
+        padding: 0% 0% 0% 3%;
+    }
+
+
+    article figure {
+        width: 45%;
+    }
+
+   
+
+  
+    
+  
+    
+    
+    
+    
+    
+
+    
+
+
+/*--4 konteinerid*/
+ 
+.box7 {
+    width: 70%;
+    margin: 1% 15%;
+}
+  
+}
+
+@media (max-width: 769px) {
+    header h2 {
+        width: 100%;
+        color: blue;
+        text-align: center;
+        font-size: 3.25em;
+    }
+
+    header nav {
+        float: none;
+        font-size: 1.5em;
+        color: blue;
+        width: 100%;
+    }
+
+    .header-box {
+        background-color: white;
+    }
+
+    header nav li {
+        float: none;
+    }
+
+
+    header h6 {
+        font-size: 1.5em;
+    }
+
+    header h4 {
+        font-size: 4em;
+    }
+
+    header p {
+        font-size: 1.5em;
+    }
+
+
+    .header-fonas {
+        background-image: url(IMG/2_header.jpg);
+        background-size: cover;
+        width: 100%;
+        text-align: center;
+        color: white;
+    }
+
+    .header-fonas-bgc {
+        background-color: rgba(24, 24, 199, 0.2);
+        background-size: cover;
+        width: 100%;
+    }
+
+
+    /* 1 KONTEINERIS */
+    .container-centras {
+        display: none;
+        position: absolute;
+    }
+
+    .container-desine {
+        width: 100%;
+    }
+
+    .container-kaire {
+        width: 100%;
+    }
+
+    .box1 {
+        width: 100%;
+        margin: 0;
+    }
+
+    .box2 {
+        width: 100%;
+        margin: 0;
+    }
+
+
+
+    /* 2 KONTEINERIS */
+
+    .container2 h6 {
+        font-size: 2em;
+    }
+
+    .container2 h4 {
+        font-size: 2.5em;
+    }
+
+    .container2 p {
+        font-size: 2em;
+    }
+
+    /* 3 KONTEINERIS */
+
+    .nav_2 {
+        font-size: 1.5em;
+        color: blue;
+    }
+
+    .nav_2 li {
+        float: none;
+        width: 100%;
+    }
+
+    figcaption {
+        font-size: 2.25em;
+    }
+    
+    .price {
+        font-size: 1.5em;
+    }
+
+    article figure {
+        width: 100%;
+        margin: 0;
+    }
+
+    /* 4 KONTEINERIS */
+
+    .container6 img {
+        width: 50%;
+        padding: 0;
+    }
+
+    .container6 h6 {
+        text-align: center;
+    }
+
+    .container6 p {
+        text-align: center;
+    }
+
+    .box6 {
+        width: 100%;
+
+    }
+
+    .mygtukas4 {
+        margin: 0 auto;
+        text-align: center;
+        width: 50%;
+    }
+
+    .box7 {
+        width: 100%;
+        margin: 0;
+    }
+}
